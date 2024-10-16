@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    margin-right: 0px;
 }
 
 body {
@@ -54,18 +53,21 @@ nav {
     color: rgb(255, 255, 255);
 }
 
-
+.ul {
+    display: flex;
+    align-items: center;
+}
 
 .ul li {
     margin: 0 35px;
     font-size: 15px;
 }
 
-.ul li a{
+.ul li a {
     color: white;
 }
 
-main .container{
+main .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,29 +75,27 @@ main .container{
     background-color: #14424b;
 }
 
-.main-text{
+.main-text {
     width: 50%;
     color: rgb(255, 248, 248);
 }
 
-.main-text h1{
+.main-text h1 {
     font-size: 4.5rem;
 }
 
-.main-text div{
+.main-text div {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.main-img{
+.main-img {
     width: 100%;
 }
 
-
-
-@media (max-width: 960px){
-    .menu-icon{
+@media (max-width: 960px) {
+    .menu-icon {
         display: block;
     }
     .ul {
@@ -108,8 +108,7 @@ main .container{
         height: 100%;
         left: 100%;
     }
-    .ul.ativa{
+    .ul.ativa {
         left: 0;
-        
     }
 }
