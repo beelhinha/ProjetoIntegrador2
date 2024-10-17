@@ -1,7 +1,7 @@
-var menuIcon = document.querySelector('menu-icon');
+var menuIcon = document.querySelector('.menu-icon');
 var ul = document.querySelector('.ul');
-menuIcon.addEventListener('click', ()=>{
 
+menuIcon.addEventListener('click',()=>{
        if (ul.classList.contains('ativo')) {
             ul.classList.remove('ativo');
         }else{
