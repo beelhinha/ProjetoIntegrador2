@@ -10,12 +10,12 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background:  #273a92;
+    background:  #1b37b4;
 }
 
 :root {
-    --amarelo: #e2cf53;
-    --blue: blue;
+    --amarelo: #ccb839;
+    --blue:#1b37b4;
     --orange: orange;
     --degrade-btn: linear-gradient(orange, rgb(221, 115, 82));
     --color-p: #3a2828;
@@ -23,7 +23,7 @@ body {
 }
 
 .background-verde {
-    background: var(--amarelo);
+    background: var(--azul);
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .btn-gradient {
     padding: 10px 25px;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     background-image: var(--degrade-btn);
@@ -45,7 +45,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .logo a {
