@@ -10,11 +10,11 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background:  #1b37b4;
+    background:  #2841b0;
 }
 
 :root {
-    --amarelo: #ccb839;
+    --amarelo: #2841b0;
     --blue:#1b37b4;
     --orange: orange;
     --degrade-btn: linear-gradient(orange, rgb(221, 115, 82));
@@ -51,6 +51,7 @@ nav {
 .logo a {
     font-size: 30px;
     font-weight: bold;
+    margin-left: 10px;
     color: rgb(255, 255, 255);
 }
 
@@ -67,12 +68,17 @@ nav {
 .ul li a {
     color: white;
 }
+.resultados .container {
+    background-color: #d58837 !important; /* Preserva a cor de fundo caso o degradê não seja suportado */
+    max-width: 400%;
+}
+
 
 main .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -20px;
+    margin-top: 26px;
     background-color: var(--amarelo);
 }
 
@@ -142,4 +148,34 @@ main .container {
     main .container .main-text div {
         justify-content: center;
     }
+
+    .resultados .resultados-text {
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 600;
+        width: 50%;
+    }
+
+    .resultados .resultados-numero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .resultados .resultados-numero p{
+        text-align: center;
+        margin: 0 30px;
+        font-size: 20px;
+    }
+
+     .resultados .resultados-numero p span {
+    font-size: 30px;
+    font-weight: 600;
+    }
+    
+    .resultados{
+        background-color: #FA8607 !important;
+        }
 }
+
