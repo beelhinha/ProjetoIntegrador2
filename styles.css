@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-    --amarelo: #2841b0;
+    
     --blue:#1b37b4;
     --orange: orange;
     --degrade-btn: linear-gradient(orange, rgb(221, 115, 82));
@@ -68,11 +68,49 @@ nav {
 .ul li a {
     color: white;
 }
-.resultados .container {
-    background-color: #d58837 !important; /* Preserva a cor de fundo caso o degradê não seja suportado */
-    max-width: 400%;
+
+.resultados {
+    background-color: #FA8607 !important;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
 }
 
+.resultados .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.resultados .resultados-text {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.resultados .resultados-numero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 45%;
+}
+
+.resultados .resultados-numero p {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.resultados .resultados-numero p span {
+    font-size: 30px;
+    font-weight: 400;
+}
 
 main .container {
     display: flex;
@@ -151,7 +189,7 @@ main .container {
 
     .resultados .resultados-text {
         color: white;
-        font-size: 1.6rem;
+        font-size: 0.9rem;
         font-weight: 600;
         width: 50%;
     }
@@ -177,5 +215,4 @@ main .container {
     .resultados{
         background-color: #FA8607 !important;
         }
-}
-
+};
